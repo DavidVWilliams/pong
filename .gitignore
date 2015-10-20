@@ -1,0 +1,249 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/davidwilliams/bloc/pong"
+		}
+	]
+}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"return"
+			],
+			[
+				"gam",
+				"gameOver"
+			],
+			[
+				"ga",
+				"gameOver"
+			],
+			[
+				"box",
+				"boxes"
+			],
+			[
+				"che",
+				"checkForDraw"
+			],
+			[
+				"ch",
+				"checkForVictory"
+			],
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"pl",
+				"player1"
+			],
+			[
+				"my",
+				"myOverlay"
+			],
+			[
+				"l",
+				"lowRes"
+			],
+			[
+				"m",
+				"mySpinner"
+			],
+			[
+				"re",
+				"removeTarget"
+			],
+			[
+				"p",
+				"parentNode"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"git",
+				"gitIcon"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/03_01/working folder/events/tstyle.css",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/03_01/working folder/events/ticTacToe[bak].js",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/03_01/working folder/events/tictactoe.html",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/03_01/working folder/events/ticTacToe.js",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/03_01/working folder/events/script.js",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/03_01/working folder/events/index.html",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/02_01/working folder/events/style.css",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/02_01/working folder/events/script.js",
+		"/Volumes/Data/Lynda/JS Events/Ex_Files_JS_Events/Exercise Files/02_01/working folder/events/index.html",
+		"/Volumes/Data/Lynda/Javascript/lesson1.html",
+		"/Users/davidwilliams/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/davidwilliams/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Data/Firehose Project/Prework/me.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"md",
+			"empty",
+			"Test",
+			"row3",
+			"row2",
+			"row1",
+			"span4",
+			"xs",
+			"md",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.940758293839,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
+pong.sublime-workspace
+pong.sublime-project
