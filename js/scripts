@@ -1,0 +1,23 @@
+window.onload = function () {
+	var pongCanvas = document.getElementById('pong_canvas');
+	if(pongCanvas && pongCanvas.getContext) {
+		var pongContext = pongCanvas.getContext('2d');
+
+		if (pongContext) {
+			// pongCanvas.style.display = "block";
+			// pongCanvas.style.background = "darkGray";
+			pongCanvas.width = 1024;
+			pongCanvas.height = 640;
+			pongContext.fillStyle = "darkGray";
+			pongContext.fillRect(50,50, 924, 540);
+		}
+	}
+
+}
+
+function Paddle(x,y,width,height) {
+	this.x = x;
+	this.y = y;
+	this.width = width;
+	this.height = height;
+}
