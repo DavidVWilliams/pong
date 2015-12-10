@@ -3,6 +3,8 @@ var downArrow = 40;
 var spaceBar = 32;
 var boardTop = 50;
 var boardBottom = 580;
+var aKey = 65;
+var zKey = 90;
 
 window.onload = function () {
 	var pongCanvas = document.getElementById('pong_canvas');
@@ -39,7 +41,7 @@ window.onload = function () {
 				ctx.clearRect(0, 0, pongCanvas.width, pongCanvas.height);
 				drawBoard();
 				player.render(ctx);
-				computer.render(ctx);
+				player2.render(ctx);
 				pongBall.draw(ctx);	
 				pongBall.moveBall();
 				player.move();
@@ -80,7 +82,11 @@ var pressArrowKey = window.addEventListener("keydown", function(e) {
 		player.y += player.speed;
 	} else if (e.keyCode == upArrow) {
 		player.y -= player.speed;
-	}
+	} else if (e.keyCode == aKey) {
+		player2.y -= player2.speed;
+	} else if (e.keyCode == zKey) {
+		player2.y += player2.speed;
+	} 
 }, false);
 
 Paddle.prototype.render = function (c) {
@@ -92,6 +98,7 @@ Paddle.prototype.render = function (c) {
 
 var player = new Paddle(75,250,20,125,"red");
 var computer = new Paddle(930,250,20,125,"red");
+var player2 = new Paddle(930,250,20,125,"red");
 var pongBall = new Ball(500,200,15, "lightgray");
 
 function Ball (x, y, radius, color) {
@@ -137,7 +144,9 @@ function Ball (x, y, radius, color) {
   		this.speedY *= -1;
   	} else if (this.y <= player.y + player.height && this.x <= player.x + player.width) {
   		this.speedX *= -1;
-  	}
+  	} else if (this.y <= player2.y + player2.height && this.x >= player2.x - player2.width) {
+  		this.speedX *= -1;
+  	} 
 		// Do this for top
 		// If hits left/right reset ball to middle
 		// Paddle collision
